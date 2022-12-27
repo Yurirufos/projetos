@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*
+body{
+ background-image: linear-gradient(to right, #909590, #9ae19d, #537a5a );
+}
+
+
+main{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: white;
+ border-radius: 10px ;
+ box-shadow: 10px 10px 10px #537a5ada;
+ padding: 10px;
+ margin: auto;
+ text-align: justify;
+
+}
+
+.nivel1 {
+ color: #b270d883 ;
+}
+
+.nivel2 {
+ color: #70d8c7;
+
+}
+
+#titulosobre {
+ font-size: 2.4em;
+ text-align: left;
+}
+
+h1{
+/*  SHORTHAND */
+ /*  Font: Style Weight(peso) Size Family */
+ font-size: 5em;
+ font-family: 'Shadows Into Light', cursive;  
+ text-align: center;
+ color: #b270d8 ;
+ text-shadow: 1px 1px 2px #aa6cce;
+
+}
+
+h2{
+ color: #EF798A;
+}
+
+p {
+ text-align: justify;
+}
+
+button{
+ border: none;
+ border-radius: 50%;
+ border-color: none;
+background-image: radial-gradient(circle,#7f96f3, #F7A9A8);
+padding: 5px;
+}
+
+div#d1 {
+display: flex;
+padding: 10px;
+justify-content: center;
+}
+
+
+div#surpresa:hover {
+ color: #ff0000;
+}
+
+div#surpresa > p {
+ display: none; 
+}
+
+div#surpresa:hover > p {
+ display: block; 
+}
+
+.link1 {
+ color: red;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+.link1:visited {
+ color: darkred;
+}
+
+.link1:hover {
+ color: #000000;
+ text-decoration: underline;
+}
+.link1:active{
+color: #9acd32;
+}
+a:hover {
+ color: #000000;
+ text-decoration: underline;
+}
+
+a:active{
+color: #9acd32;
+}
